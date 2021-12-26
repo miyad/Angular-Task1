@@ -1,0 +1,14 @@
+<app-student></app-student>
+
+
+  
+<form  (ngSubmit)="saveStudent()">
+<input [(ngModel)]="studentName" placeholder="name" [ngModelOptions]="{standalone: true}"/>
+<button
+  class="button"
+  type="submit"
+>
+add
+</button>
+</form>
+
